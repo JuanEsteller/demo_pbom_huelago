@@ -905,7 +905,7 @@ map.addControl(bottomAttribution);
 var attributionList = document.createElement('li');
 attributionList.innerHTML = `
 	<a href="https://www.linkedin.com/in/juan-esteller-rega/">@JuanEsteller</a>;
-	<a href="https://www.dipgra.es/">datos: DIPGRA</a> &middot
+	<a href="https://www.dipgra.es/">DIPGRA</a> &middot
 		
 `;
 bottomAttribution.element.appendChild(attributionList);
