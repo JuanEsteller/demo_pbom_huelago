@@ -904,8 +904,8 @@ map.addControl(bottomAttribution);
 
 var attributionList = document.createElement('li');
 attributionList.innerHTML = `
-	<a href="https://github.com/qgis2web/qgis2web">qgis2web</a> &middot;
-	<a href="https://openlayers.org/">OpenLayers</a> &middot;
+	
+	<a href="https://www.dipgra.es/">datos: DIPGRA</a> &middot;
 	<a href="https://www.linkedin.com/in/juan-esteller-rega/">@JuanEsteller</a>	
 `;
 bottomAttribution.element.appendChild(attributionList);
