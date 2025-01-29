@@ -6,7 +6,7 @@ function categories_SueloRstico_2(feature, value, size, resolution, labelText,
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'Suelo rustico preservado por ordenacion territorial o urbanistica SRPOTU':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(24,155,128,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}),
+        stroke: new ol.style.Stroke({color: 'rgba(24,155,128,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -14,7 +14,7 @@ function categories_SueloRstico_2(feature, value, size, resolution, labelText,
                     break;
 case 'Suelo rustico especialmente protegido por legislacion sectorial SREPLS':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(195,209,194,1.0)'}),
+        fill: new ol.style.Fill({color: 'rgba(195,209,194,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -22,7 +22,7 @@ case 'Suelo rustico especialmente protegido por legislacion sectorial SREPLS':
                     break;
 case 'Suelo rustico comun SRC':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(160,255,160,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}),fill: new ol.style.Fill({color: 'rgba(244,245,202,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(160,255,160,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}),fill: new ol.style.Fill({color: 'rgba(244,245,202,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
